@@ -1,0 +1,20 @@
+footer {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
+.footer-icon {
+        margin: 40px 40px 5px 40px;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        filter: brightness(0%);
+}
+
+/* This lets me color my icons on hover (it just sets the brightness back to the default) */
+.footer-icon:hover {
+        filter: brightness(1);
+}

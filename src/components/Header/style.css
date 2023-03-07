@@ -1,0 +1,13 @@
+#header {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 25px;
+}
+
+#header * {
+        margin: 0;
+}
+
+#header div * {
+        margin: 10px;
+}
