@@ -13,9 +13,18 @@ code {
 }
 
 body #root {
+  height: 100vh;
   overflow: hidden;
 }
 
+/* Utils */
 a:link {
   text-decoration: none;
+}
+
+.hoverGlow:hover {
+	box-shadow: 3px -3px 3px rgb(218, 213, 213),
+				3px 3px 3px rgb(218, 213, 213),
+				-3px -3px 3px rgb(218, 213, 213),
+				-3px 3px 3px rgb(218, 213, 213);
 }

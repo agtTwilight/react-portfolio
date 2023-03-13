@@ -1,27 +1,41 @@
 import React from 'react'
 import Project from "../../components/Project"
 import "./style.css"
-import gitgood from "./assests/gitgood.png"
-import wow from "./assests/wow.png"
+import placeholder from "./assests/placeholder.png"
 
 export const Portfolio = () => {
   return (
-    <div id='projects'>
-    <Project
-    image = {wow}
-    title = "World of Wordcraft"
-    description = "A text based adventure game using a mysql database"
-    view = "https://world-of-wordcraft.herokuapp.com/"
-    repo = "https://github.com/agtTwilight/project-2"
-    />
+    <section id='portfolio'>
+      <h1>Projects:</h1>
+      <hr></hr>
+      <section id='cardContainer'>
         <Project
-    image = {gitgood}
-    title = "GitGood"
-    description = "A strategy lane based card game"
-    view = "https://sprocketcreations.github.io/git-good/arena/"
-    repo = "https://github.com/agtTwilight/git-good"
-    />
-    </div>
+          src={placeholder}
+          title={"test title"}
+        />
+        <Project
+          src={placeholder}
+          title={"snickerdoodle"}
+        />
+        <Project
+          src={placeholder}
+          title={"cat dad"}
+        />
+        <Project
+          src={placeholder}
+          title={"cat dad"}
+        />
+        <Project
+          src={placeholder}
+          title={"cat dad"}
+        />
+        <Project
+          src={placeholder}
+          title={"cat dad"}
+        />
+      </section>
+      <a id='about-anchor' href='/'>{"<-- About Me"}</a>
+    </section>
   )
 }
 

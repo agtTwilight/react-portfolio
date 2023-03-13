@@ -1,11 +1,12 @@
 #header {
         display: flex;
         justify-content: space-between;
-        margin: 25px 25px;
+        margin: 40px 40px;
 }
 
 #header * {
         margin: 0;
+        font-size: 1em;
 }
 
 #header div * {

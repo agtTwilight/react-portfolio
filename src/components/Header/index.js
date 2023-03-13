@@ -5,9 +5,9 @@ import "./style.css"
 export const Header = () => {
   return (
         <header id='header'>
-                <h3>Lukas MacMillen</h3>
+                <h3>LUKAS MACMILLEN</h3>
                 <div>
-                        <a href='/'>Let's Connect</a>
+                        <a id='contactLink' href='/contact'>Contact Me!</a>
                 </div>
         </header>
   )
