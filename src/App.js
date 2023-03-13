@@ -1,7 +1,7 @@
 import Header from "./components/Header"
 import Footer from './components/Footer'
 import About from "./pages/About"
-// import Contact from "./pages/Contact"
+import Contact from "./pages/Contact"
 import Portfolio from "./pages/Portfolio";
 import {
   BrowserRouter as Router, 
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About/>}/>
           <Route path="/projects" element={<Portfolio/>}/>
-          {/* <Route path="/contact" element={<Contact/>}/> */}
+          <Route path="/contact" element={<Contact/>}/>
           {/* <Route path="*" element={<Navigate to="/"/>} /> */}
         </Routes>
       <Footer/>
