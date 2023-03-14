@@ -2,6 +2,8 @@
 # react-portfolio
 ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+Link: https://lukasmacmillen.netlify.app/
+
 ## Description
 **What was your motivation?** <br>
 I wanted to build a new portfolio that shows my ability to use React.js! <br><br>
