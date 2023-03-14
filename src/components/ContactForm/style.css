@@ -1,0 +1,20 @@
+#contactForm {
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border: solid black;
+        border-radius: 12px;
+}
+
+#contactForm input {
+        margin-bottom: 20px;
+}
+
+#contactBtn {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+}

@@ -10,6 +10,7 @@ import {
 } from "react-router-dom"
 import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="/" element={<About/>}/>
           <Route path="/projects" element={<Portfolio/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          {/* <Route path="*" element={<Navigate to="/"/>} /> */}
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       <Footer/>
     </Router>
