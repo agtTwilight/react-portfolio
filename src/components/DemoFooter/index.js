@@ -11,7 +11,11 @@ export const DemoFooter = (props) => {
         function makeDemoFooter() {
                 const arr = []
                 for (let i = 0; i < props.num; i++) {
-                        arr.push(<p className='progress-bar'></p>)
+                        if (i === 0) {
+                                arr.push(<p className='demo-progress-bar progress-initial' id={`${props.title}-${i}`}></p>)
+                        } else {
+                                arr.push(<p className='demo-progress-bar' id={`${props.title}-${i}`}></p>)
+                        }
                 }
                 return arr
         }
