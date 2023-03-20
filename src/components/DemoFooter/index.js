@@ -9,9 +9,11 @@ export const DemoFooter = (props) => {
         }, [])
 
         function makeDemoFooter() {
+                const arr = []
                 for (let i = 0; i < props.num; i++) {
-                        return <p className='progress-bar'></p>
+                        arr.push(<p className='progress-bar'></p>)
                 }
+                return arr
         }
   return (
         <div className='demoFooter'>
