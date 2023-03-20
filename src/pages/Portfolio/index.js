@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from "../../components/Project"
+import Project from "../../components/ProjectCard"
 import "./style.css"
 import placeholder from "./assests/placeholder.png"
 import wow from "./assests/wow.png"
@@ -7,8 +7,7 @@ import gitgood from "./assests/gitgood.png"
 
 export const Portfolio = () => {
   return (
-    <section id='portfolio'>
-      <h1>Projects:</h1>
+    <section id='portfolio' className='wrap'>
       <hr></hr>
       <section id='cardContainer'>
         <Project
@@ -38,7 +37,6 @@ export const Portfolio = () => {
           title={"placholder"}
         />
       </section>
-      <a id='about-anchor' href='/'>{"<-- About Me"}</a>
     </section>
   )
 }

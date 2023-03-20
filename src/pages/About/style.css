@@ -1,12 +1,8 @@
 h1 {
-        font-size: 4em;
+        font-size: 4rem;
 }
 
 p {
-        width: 60%;
-        line-height: 1.5em;
-}
-
-#about {
-        margin: 0 80px;
+        width: 50%;
+        line-height: 1.5rem;
 }

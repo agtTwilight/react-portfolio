@@ -1,0 +1,8 @@
+.demoCard {
+        width: 80%;
+}
+
+.demoCard * {
+        width: 100%;
+        overflow: hidden;
+}

@@ -1,3 +1,12 @@
+h3 {
+        color: var(--lightpistachio);
+}
+
+.header-span {
+        margin: 0;
+        color: var(--forestgreen);
+}
+
 #header {
         display: flex;
         justify-content: space-between;
@@ -9,6 +18,10 @@
         font-size: 1em;
 }
 
-#header div * {
+#header div a {
         margin: 10px;
+}
+
+#header p {
+        color: var(--forestgreen);
 }

@@ -1,0 +1,83 @@
+.projectWrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 100vw;
+}
+
+.projectCard {
+        display: flex;
+        height: 600px;
+        width: 1200px;
+        position: relative;
+        border: solid var(--forestgreen);
+        border-radius: 16px;
+        overflow: hidden;
+}
+
+.projectCard * {
+        margin: 0;
+}
+
+.projectBrief {
+        position: relative;
+        width: 400px;
+        background-color: var(--pistachio);
+        border-right: solid var(--forestgreen);
+}
+
+.projectHeader {
+        margin: 2rem auto;
+        display: flex;
+        width: fit-content;
+        justify-content: space-evenly;
+        align-items: center;
+        color: var(--extradrkterracotta);
+}
+
+.projectImg {
+        margin-right: 3rem;
+        width: 150px;
+        height: 150px;
+        border: solid var(--forestgreen);
+        border-radius: 50%;
+}
+
+.projectAbout {
+        margin: 2rem auto;
+        width: 80%;
+        color: var(--forestgreen);
+        text-align: center;
+}
+
+.projectFooter {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+}
+
+.projectBrief hr {
+        width: 50%;
+        height: 1px;
+        background-color: var(--forestgreen);
+        border: none;
+}
+
+.projectUtils {
+        text-align: center;
+        color: var(--forestgreen);
+}
+
+.projectDemo {
+        display: flex;
+        position: relative;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--vlightpistachio);
+}

@@ -1,0 +1,19 @@
+.demoCard {
+        position: relative;
+        width: 80%;
+}
+
+.demoCard * {
+        width: 100%;
+        overflow: hidden;
+}
+
+.demoImg {
+        border: solid var(--forestgreen);
+        border-radius: 8px;
+        overflow: hidden;
+}
+
+.demoBody {
+        margin-top: 2rem;
+}

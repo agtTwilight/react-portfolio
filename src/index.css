@@ -12,19 +12,66 @@ code {
     monospace;
 }
 
-body #root {
-  height: 100vh;
+#root {
+  position: relative;
+  min-height: 100vh;
   overflow: hidden;
+  background-color: var(--offwhite);
+  --terracotta: #eeaa9b;
+  --drkterracotta: #d68c7b;
+  --extradrkterracotta: #9d4d3c;
+  --lighttan: #f8e4c8;
+  --offwhite: 	#fcfcee;
+  --vlightpistachio: #d7edcc;
+  --lightpistachio: 	#a6c298;
+  --pistachio: 	#aec7a7;
+  --forestgreen: #587141;
 }
 
 /* Utils */
+h1 {
+  color: var(--forestgreen);
+}
+
+.wrap {
+  margin: 0 4em;
+  padding-bottom: 45px;
+}
+
+.wrap * {
+  margin: 1rem 0;
+}
+
 a:link {
+  color: var(--lightpistachio);
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--lightpistachio);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--forestgreen);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--terracotta);
+}
+
+a:active *{
+  color: var(--terracotta);
+}
+
 .hoverGlow:hover {
-	box-shadow: 3px -3px 3px rgb(218, 213, 213),
-				3px 3px 3px rgb(218, 213, 213),
-				-3px -3px 3px rgb(218, 213, 213),
-				-3px 3px 3px rgb(218, 213, 213);
+	box-shadow: 3px -3px 3px var(--vlightpistachio),
+				3px 3px 3px var(--vlightpistachio),
+				-3px -3px 3px var(--vlightpistachio),
+				-3px 3px 3px var(--vlightpistachio);
+}
+
+.pistachio {
+  color: var(--lightpistachio);
 }

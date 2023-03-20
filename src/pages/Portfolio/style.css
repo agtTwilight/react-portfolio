@@ -1,20 +1,13 @@
 #cardContainer {
         display: flex;
-        margin-left: 20px;
+        margin: 0 auto;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        width: 663px;
 }
 
-#portfolio {
-        margin: 0 40px;
-}
-
-#portfolio h1 {
-        margin: 0 40px;
-}
-
-#about-anchor {
-       margin: 0 40px; 
+#portfolio hr {
+        height: 1px;
+        background-color: var(--forestgreen);
+        border: none;
 }

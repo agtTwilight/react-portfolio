@@ -8,8 +8,7 @@ import {
   Routes,
   Route
 } from "react-router-dom"
-import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css";
+import {React, useState, useEffect} from "react"
 import { Navigate } from "react-router-dom";
 
 function App() {
@@ -19,7 +18,8 @@ function App() {
       <Header/>
         <Routes>
           <Route path="/" element={<About/>}/>
-          <Route path="/projects" element={<Portfolio/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
+          {/* <Route path="/resume" element={<Resume/>}/> */}
           <Route path="/contact" element={<Contact/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
