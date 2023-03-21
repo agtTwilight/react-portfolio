@@ -21,7 +21,7 @@ export const DemoCard = (props) => {
                 </div>
             </section>
         } else {
-            return <section className='displayNone' id={`${prop.projectIndex}-${prop.demoIndex}`}>
+            return <section className='displayNone' id={`project${prop.projectIndex}-${prop.demoIndex}`}>
                 <img className='demoImg' src={prop.src}></img>
                 <div className='demoBody'>
                     <h2 className='demoTitle'>{prop.title}</h2>
