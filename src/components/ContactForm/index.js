@@ -24,11 +24,11 @@ export const ContactForm = () => {
 
   return (
     <form id='contactForm' ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label>Your Name:</label>
       <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
+      <label>Your Email Address:</label>
+      <input type="email" name="user_email"/>
+      <label>What would you like to say?</label>
       <textarea name="message" />
       <input id='contactBtn' type="submit" value="Send" />
     </form>

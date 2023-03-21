@@ -13,9 +13,9 @@ export const DemoFooter = (props) => {
         const arr = []
         for (let i = 0; i < props.num; i++) {
             if (i === 0) {
-                arr.push(<p className='demo-progress-bar progress-on' id={`projectFooter${props.index}-${i}`} key={i}></p>)
+                arr.push(<p className='demo-progress-bar progress-on' id={`projectFooter${props.index}-${i}`} key={i} onClick={jumpToSelected}></p>)
             } else {
-                arr.push(<p className='demo-progress-bar' id={`projectFooter${props.index}-${i}`} key={i}></p>)
+                arr.push(<p className='demo-progress-bar' id={`projectFooter${props.index}-${i}`} key={i} onClick={jumpToSelected}></p>)
             }
         }
         return arr
@@ -59,6 +59,18 @@ export const DemoFooter = (props) => {
             removeFooterFill();
             setCurrentIndex(currentIndex - 1)
         }
+    }
+
+    function jumpToSelected(e) {
+        const indexTo =  e.target.id.split("-")[1]
+
+        const currentDisplay = document.querySelector(`#project${props.index}-${currentIndex}`)
+        const displayTo = document.querySelector(`#project${props.index}-${indexTo}`)
+
+        currentDisplay.classList.remove("display");
+        currentDisplay.classList.add("displayNone");
+        displayTo.classList.remove("displayNone");
+        displayTo.classList.add("display");
     }
 
     return (
