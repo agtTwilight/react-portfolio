@@ -3,7 +3,7 @@
 }
 
 .demoContainer * {
-        width: 100%;
+        width: 99%;
         overflow: hidden;
 }
 
@@ -22,5 +22,5 @@
 }
 
 .displayNone {
-    display: hidden;
+    display: none;
 }

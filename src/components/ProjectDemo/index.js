@@ -22,7 +22,7 @@ export const ProjectDemo = (props) => {
                     ))}
                         <DemoFooter
                         num={props.numSlides}
-                        title={props.demoData.title}
+                        // title={props.demoData.title}
                         />
                 </section>
         )

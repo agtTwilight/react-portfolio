@@ -11,11 +11,12 @@ export const Portfolio = () => {
         {projectData.map((project, index) => (
           <Project
           key={index}
+          index={index}
           src = {project.src}
           title = {project.title}
           about = {project.about}
           utils = {project.utils}
-          demoData = {project.demo}
+          demoData={project.demo}
           />
         ))}
       </section>
