@@ -1,16 +1,37 @@
-import React from 'react'
-import img from './assests/test.png'
+import { React, useState, useEffect } from 'react'
 import './style.css'
 
-export const DemoCard = () => {
-        return (
-                <>
-                        <img className='demoImg' src={img}></img>
-                        <div className='demoBody'>
-                                <h2 className='demoTitle'>TESTING TITLE:</h2>
-                                <p className='demoBrief'>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                        </div>
-                </>
+export const DemoCard = (props) => {
+    const { demo, setDemo } = useState(null)
+    const { display, setDisplay } = useState("display")
+    const { displayNone, setDisplayNone } = useState("displayNone")
+
+    useEffect(() => {
+        setDemo(makeDemoCard())
+    }, [])
+
+    function makeDemoCard() {
+        if (props.index === 0) {
+            return <section className={display} key={props.key} id={`${props.title}-${props.key}`}>
+                <img className='demoImg' src={props.src}></img>
+                <div className='demoBody'>
+                    <h2 className='demoTitle'>{props.title}</h2>
+                    <p className='demoAbout'>{props.about}</p>
+                </div>
+            </section>
+        } else {
+            return <section className={displayNone} key={props.key} id={`${props.title}-${props.index}`}>
+                <img className='demoImg' src={props.src}></img>
+                <div className='demoBody'>
+                    <h2 className='demoTitle'>{props.title}</h2>
+                    <p className='demoAbout'>{props.about}</p>
+                </div>
+            </section>
+        }
+    }
+
+    return (
+        {demo}
         )
 }
 

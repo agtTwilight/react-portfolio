@@ -2,20 +2,27 @@ import React from 'react'
 import DemoCard from '../DemoCard'
 import DemoFooter from '../DemoFooter'
 
-export const ProjectDemo = () => {
+export const ProjectDemo = (props) => {
         function fillFooter(num){
                 for (let i=1; i < num+1; i ++) {
-                        document.querySelector(`#test-${i}`).setAttribute("style", "background-color: var(--lighttan);")
+                        document.querySelector(`#test-${i}`).setAttribute("style", "background-color: var(--pistachio);")
                 }
         }
 
         return (
-                // TODO map over this for demo card obj array.
-                <section className='demoCard'>
-                        <DemoCard />
+                <section className='demoContainer'>
+                    {props.demoData.map((demo, index) => (
+                        <DemoCard
+                        key={index}
+                        index = {index}
+                        src={demo.src}
+                        title={demo.title}
+                        about={demo.about}
+                        />
+                    ))}
                         <DemoFooter
-                        num={4}
-                        title={"test"}
+                        num={props.numSlides}
+                        title={props.demoData.title}
                         />
                 </section>
         )

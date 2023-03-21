@@ -1,8 +1,8 @@
-.demoCard {
+.demoContainer {
         width: 80%;
 }
 
-.demoCard * {
+.demoContainer * {
         width: 100%;
         overflow: hidden;
 }
@@ -15,4 +15,12 @@
 
 .demoBody {
         margin-top: 2rem;
+}
+
+.display {
+    display: visible;
+}
+
+.displayNone {
+    display: hidden;
 }
