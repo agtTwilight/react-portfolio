@@ -11,6 +11,17 @@
         margin-bottom: 0.5rem;
 }
 
+.demoArrow {
+    width: 1rem;
+    color: var(--pistachio);
+}
+
+.demoArrow:hover {
+    color: var(--forestgreen);
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
 .demo-progress-bar {
         border: solid var(--forestgreen);
         width: 10px !important;
@@ -24,6 +35,6 @@
         rotate: 45deg;
 }
 
-.progress-initial {
+.progress-on {
         background-color: var(--pistachio);
 }

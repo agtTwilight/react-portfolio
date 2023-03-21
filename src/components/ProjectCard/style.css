@@ -81,3 +81,9 @@
         align-items: center;
         background-color: var(--vlightpistachio);
 }
+
+.demoBtn {
+    color: var(--forestgreen);
+    border: solid 1px var(--forestgreen);
+    background-color: var(--vlightpistachio);
+}

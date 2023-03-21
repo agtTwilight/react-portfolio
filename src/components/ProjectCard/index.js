@@ -18,12 +18,13 @@ export const Project = (props) => {
                         <p className='projectUtils'>{props.utils}</p>
                     </div>
                 </section>
-                <section className='projectDemo'>
+                <section className='projectDemo' id={`project${props.index}`}>
                     <section className='demoContainer'>
                         {props.demoData.map((demo, index) => (
                             <DemoCard
                                 key={index}
-                                index={index}
+                                demoIndex={index}
+                                projectIndex={props.index}
                                 src={demo.src}
                                 title={demo.title}
                                 about={demo.about}
@@ -31,7 +32,7 @@ export const Project = (props) => {
                         ))}
                         <DemoFooter
                             num={props.demoData.length}
-                            title={props.title}
+                            index={props.index}
                         />
                     </section>
                 </section>

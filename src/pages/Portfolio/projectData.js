@@ -24,8 +24,8 @@ export const projects = [
                 ]
         },
         {
-                projectSrc: wow,
-                projectTitle: "World of Wordcraft",
+                src: wow,
+                title: "World of Wordcraft",
                 about: "Text based adventure game",
                 utils: "MySQL | Express.js | Node.js | Handlebars.js",
                 demo: [
@@ -47,8 +47,8 @@ export const projects = [
                 ]
         },
         {
-                projectSrc: gitgood,
-                projectTitle: "Git Good",
+                src: gitgood,
+                title: "Git Good",
                 about: "Strategy card game",
                 utils: "JS | API fetch & data cleaning | HTML | CSS",
                 demo: [

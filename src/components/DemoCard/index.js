@@ -2,7 +2,6 @@ import { React, useState, useEffect } from 'react'
 import './style.css'
 
 export const DemoCard = (props) => {
-    // console.log(props)
     // const { demo, setDemo } = useState(<></>)
     // const { display, setDisplay } = useState("display")
     // const { displayNone, setDisplayNone } = useState("displayNone")
@@ -12,8 +11,9 @@ export const DemoCard = (props) => {
     // }, [])
 
     function makeDemoCard(prop) {
-        if (prop.index === 0) {
-            return <section className='display' id={`${prop.title}-${prop.index}`}>
+        console.log(prop)
+        if (prop.demoIndex === 0) {
+            return <section className='display' id={`project${prop.projectIndex}-${prop.demoIndex}`}>
                 <img className='demoImg' src={prop.src}></img>
                 <div className='demoBody'>
                     <h2 className='demoTitle'>{prop.title}</h2>
@@ -21,7 +21,7 @@ export const DemoCard = (props) => {
                 </div>
             </section>
         } else {
-            return <section className='displayNone' id={`${prop.title}-${prop.index}`}>
+            return <section className='displayNone' id={`${prop.projectIndex}-${prop.demoIndex}`}>
                 <img className='demoImg' src={prop.src}></img>
                 <div className='demoBody'>
                     <h2 className='demoTitle'>{prop.title}</h2>
