@@ -13,9 +13,9 @@ export const DemoFooter = (props) => {
         const arr = []
         for (let i = 0; i < props.num; i++) {
             if (i === 0) {
-                arr.push(<p className='demo-progress-bar progress-on' id={`projectFooter${props.index}-${i}`}></p>)
+                arr.push(<p className='demo-progress-bar progress-on' id={`projectFooter${props.index}-${i}`} key={i}></p>)
             } else {
-                arr.push(<p className='demo-progress-bar' id={`projectFooter${props.index}-${i}`}></p>)
+                arr.push(<p className='demo-progress-bar' id={`projectFooter${props.index}-${i}`} key={i}></p>)
             }
         }
         return arr

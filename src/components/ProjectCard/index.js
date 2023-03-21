@@ -1,11 +1,11 @@
-import {React, useState, useEffect} from 'react'
+import { React, useState, useEffect } from 'react'
 import "./style.css"
 import DemoCard from '../DemoCard'
 import DemoFooter from '../DemoFooter'
 
 export const Project = (props) => {
     return (
-        <section className='projectWrap' key={props.key}>
+        <section className='projectWrap' key={props.index}>
             <section className='projectCard'>
                 <section className='projectBrief'>
                     <div className='projectHeader'>
@@ -31,6 +31,7 @@ export const Project = (props) => {
                             />
                         ))}
                         <DemoFooter
+                            key={props.index}
                             num={props.demoData.length}
                             index={props.index}
                         />

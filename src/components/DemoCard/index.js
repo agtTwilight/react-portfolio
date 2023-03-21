@@ -11,9 +11,8 @@ export const DemoCard = (props) => {
     // }, [])
 
     function makeDemoCard(prop) {
-        console.log(prop)
         if (prop.demoIndex === 0) {
-            return <section className='display' id={`project${prop.projectIndex}-${prop.demoIndex}`}>
+            return <section className='display' id={`project${prop.projectIndex}-${prop.demoIndex}`} key={props.demoindex}>
                 <img className='demoImg' src={prop.src}></img>
                 <div className='demoBody'>
                     <h2 className='demoTitle'>{prop.title}</h2>
@@ -21,7 +20,7 @@ export const DemoCard = (props) => {
                 </div>
             </section>
         } else {
-            return <section className='displayNone' id={`project${prop.projectIndex}-${prop.demoIndex}`}>
+            return <section className='displayNone' id={`project${prop.projectIndex}-${prop.demoIndex}`} key={props.demoindex}>
                 <img className='demoImg' src={prop.src}></img>
                 <div className='demoBody'>
                     <h2 className='demoTitle'>{prop.title}</h2>
