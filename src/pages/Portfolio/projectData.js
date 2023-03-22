@@ -1,26 +1,25 @@
-import placeholder from "./assests/placeholder.png"
-import wow from "./assests/wow.png"
-import gitgood from "./assests/gitgood.png"
-import eatsy from "./assests/eatsy.png"
+import wow from "./assets/wow.png"
+import gitgood from "./assets/gitgood.png"
+import eatsy from "./assets/eatsy.png"
 
 // eatsy demo images
-import eatsyHomepage from "./assests/eatsydemo/homepage.png"
-import eatsyMsgsend from "./assests/eatsydemo/msgsend.png"
-import eatsyMsgview from "./assests/eatsydemo/msgview.png"
-import eatsyProfile01 from "./assests/eatsydemo/profilesettings.png"
-import eatsyProfile02 from "./assests/eatsydemo/profilesettings02.png"
+import eatsyHomepage from "./assets/eatsydemo/homepage.png"
+import eatsyMsgsend from "./assets/eatsydemo/msgsend.png"
+import eatsyMsgview from "./assets/eatsydemo/msgview.png"
+import eatsyProfile01 from "./assets/eatsydemo/profilesettings.png"
+import eatsyProfile02 from "./assets/eatsydemo/profilesettings02.png"
 
 // world of wordcraft demo images
-import wowLogin from "./assests/wowdemo/login.png"
-import wowHomepage from "./assests/wowdemo/homepage.png"
-import wowGamestart from "./assests/wowdemo/gamestart.png"
-import wowGameplay from "./assests/wowdemo/gameplay.png"
+import wowLogin from "./assets/wowdemo/login.png"
+import wowHomepage from "./assets/wowdemo/homepage.png"
+import wowGamestart from "./assets/wowdemo/gamestart.png"
+import wowGameplay from "./assets/wowdemo/gameplay.png"
 
 // git good demo images
-import ggHomepage from "./assests/gitgooddemo/homepage.png"
-import ggGamestart from "./assests/gitgooddemo/gamestart.png"
-import ggGameplay01 from "./assests/gitgooddemo/gameplay01.png"
-import ggGameplay02 from "./assests/gitgooddemo/gameplay02.png"
+import ggHomepage from "./assets/gitgooddemo/homepage.png"
+import ggGamestart from "./assets/gitgooddemo/gamestart.png"
+import ggGameplay01 from "./assets/gitgooddemo/gameplay01.png"
+import ggGameplay02 from "./assets/gitgooddemo/gameplay02.png"
 
 export const projects = [
     {

@@ -5,6 +5,7 @@
 .demoContainer * {
         width: 99%;
         overflow: hidden;
+        color: var(--forestgreen);
 }
 
 .demoImg {

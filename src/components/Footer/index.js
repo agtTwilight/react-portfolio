@@ -9,14 +9,12 @@ export const Footer = () => {
                         document.querySelector(`#marker-${i}`).setAttribute("style", "background-color: var(--lighttan);")
                 }
         }
-        
+
         useEffect(() => {
                 if (window.location.href.includes("portfolio")) {
                         fillFooter(2);
-                } else if (window.location.href.includes("resume")) {
-                        fillFooter(3);
                 } else if (window.location.href.includes("contact")) {
-                        fillFooter(4);
+                        fillFooter(3);
                 } else {
                         fillFooter(1);
                 }
@@ -26,8 +24,7 @@ export const Footer = () => {
                         <footer>
                                 <a href='/'><p id='marker-1' className='progress-bar'></p></a>
                                 <a href='/portfolio'><p id='marker-2' className='progress-bar'></p></a>
-                                <a href='/resume'><p id='marker-3' className='progress-bar'></p></a>
-                                <a href='/contact'><p id='marker-4' className='progress-bar'></p></a>
+                                <a href='/contact'><p id='marker-3' className='progress-bar'></p></a>
                         </footer>
                         <section id='footer-icons'>
                                 <a href='https://github.com/agtTwilight' target="_blank" rel="noreferrer"><img src={github} alt="The github icon" class="footer-icon"></img></a>

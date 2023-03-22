@@ -12,7 +12,7 @@
 #contactForm input {
     margin-bottom: 20px;
     padding: 5px;
-    background-color: var(--vlightpistachio);
+    background-color: var(--offwhite);
     border: solid 1px var(--forestgreen);
     border-radius: 8px;
     color: var(--forestgreen);
@@ -21,7 +21,7 @@
 #contactForm textarea {
     margin-bottom: 20px;
     padding: 5px;
-    background-color: var(--vlightpistachio);
+    background-color: var(--offwhite);
     border: solid 1px var(--forestgreen);
     border-radius: 8px;
     max-width: 98%;

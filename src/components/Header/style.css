@@ -2,6 +2,19 @@ h3 {
         color: var(--lightpistachio);
 }
 
+.resumeBtn {
+    padding: 5px;
+    border: solid 1px var(--darkterracotta);
+    border-radius: 8px;
+    background-color: var(--lighttan);
+    color: var(--darkterracotta) !important;
+}
+
+.resumeBtn:hover {
+    background-color: var(--terracotta);
+    color: var(--lighttan) !important;
+}
+
 .header-span {
         margin: 0;
         color: var(--forestgreen);
