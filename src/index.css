@@ -35,6 +35,11 @@ h1 {
   color: var(--forestgreen);
 }
 
+h2 {
+    color: var(--forestgreen);
+    font-size: 3rem;
+}
+
 .wrap {
   margin: 0 4em;
   padding-bottom: 45px;

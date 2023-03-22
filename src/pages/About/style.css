@@ -2,7 +2,21 @@ h1 {
         font-size: 4rem;
 }
 
-p {
+.aboutP {
         width: 50%;
         line-height: 1.5rem;
+        color: var(--lightpistachio);
+}
+
+#portfolio-anchor {
+    padding: 5px;
+    border: solid 1px var(--darkterracotta);
+    border-radius: 8px;
+    background-color: var(--lighttan);
+    color: var(--darkterracotta) !important;
+}
+
+#portfolio-anchor:hover {
+    background-color: var(--terracotta);
+    color: var(--lighttan) !important;
 }
