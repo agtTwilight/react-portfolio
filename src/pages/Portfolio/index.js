@@ -6,7 +6,6 @@ import projectData from "./projectData"
 export const Portfolio = () => {
   return (
     <section id='portfolio' className='wrap'>
-      <hr></hr>
       <section id='cardContainer'>
         {projectData.map((project, index) => (
           <Project
