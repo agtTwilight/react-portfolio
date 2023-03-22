@@ -15,6 +15,7 @@ h1 {
     border-radius: 8px;
     background-color: var(--lighttan);
     color: var(--darkterracotta) !important;
+    transition: 0.3s ease-out;
 }
 
 #portfolio-anchor:hover {
