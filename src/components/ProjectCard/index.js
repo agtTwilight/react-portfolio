@@ -10,9 +10,13 @@ export const Project = (props) => {
                 <section className='projectBrief'>
                     <div className='projectHeader'>
                         <img className='projectImg' src={props.src}></img>
-                        <h2 className='projectName'>{props.title}</h2>
+                        <div className='projectNameRole'>
+                            <h2 className='projectName'>{props.title}</h2>
+                            <h3 className='projectRole'>{props.role}</h3>
+                        </div>
                     </div>
                     <p className='projectAbout'>{props.about}</p>
+                    <p className='projectHighlight'>{props.highlight}</p>
                     <div className='projectFooter'>
                         <hr></hr>
                         <p className='projectUtils'>{props.utils}</p>

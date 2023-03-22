@@ -36,6 +36,10 @@
         color: var(--extradrkterracotta);
 }
 
+.projectNameRole {
+    text-align: center;
+}
+
 .projectImg {
         margin-right: 3rem;
         width: 150px;
@@ -44,7 +48,18 @@
         border-radius: 50%;
 }
 
+.projectRole {
+    color: var(--darkterracotta);
+}
+
 .projectAbout {
+        margin: 2rem auto;
+        width: 80%;
+        color: var(--forestgreen);
+        text-align: center;
+}
+
+.projectHighlight {
         margin: 2rem auto;
         width: 80%;
         color: var(--forestgreen);

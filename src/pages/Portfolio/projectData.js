@@ -2,95 +2,119 @@ import placeholder from "./assests/placeholder.png"
 import wow from "./assests/wow.png"
 import gitgood from "./assests/gitgood.png"
 import eatsy from "./assests/eatsy.png"
-import test from "./assests/test.png"
-import homepage from "./assests/eatsydemo/homepage.png"
-import msgsend from "./assests/eatsydemo/msgsend.png"
-import msgview from "./assests/eatsydemo/msgview.png"
-import profile01 from "./assests/eatsydemo/profilesettings.png"
-import profile02 from "./assests/eatsydemo/profilesettings02.png"
+
+// eatsy demo images
+import eatsyHomepage from "./assests/eatsydemo/homepage.png"
+import eatsyMsgsend from "./assests/eatsydemo/msgsend.png"
+import eatsyMsgview from "./assests/eatsydemo/msgview.png"
+import eatsyProfile01 from "./assests/eatsydemo/profilesettings.png"
+import eatsyProfile02 from "./assests/eatsydemo/profilesettings02.png"
+
+// world of wordcraft demo images
+import wowLogin from "./assests/wowdemo/login.png"
+import wowHomepage from "./assests/wowdemo/homepage.png"
+import wowGamestart from "./assests/wowdemo/gamestart.png"
+import wowGameplay from "./assests/wowdemo/gameplay.png"
+
+// git good demo images
+import ggHomepage from "./assests/gitgooddemo/homepage.png"
+import ggGamestart from "./assests/gitgooddemo/gamestart.png"
+import ggGameplay01 from "./assests/gitgooddemo/gameplay01.png"
+import ggGameplay02 from "./assests/gitgooddemo/gameplay02.png"
 
 export const projects = [
     {
         src: eatsy,
         title: "Eatsy",
-        about: "Foody social media app",
+        role: "Project Manager",
+        about: "Eatsy is a social media platform for home cooks, foodies, and chefs, where you can discover new recipes, connect with other home cooks, and share your culinary creations with the world.",
+        highlight: "I was responsible for the backend of this project and populating the front end components with data from API fetch requests. I also had a largely contributed in the React.js logic, particularly the useState and useEffect hooks.",
         utils: "MongoDB | Express.js | React.js | Node.js",
         demo: [
             {
-                src: homepage,
+                src: eatsyHomepage,
                 title: "Home Page",
-                about: "this is a test",
+                about: "Any user that has created a menu will have it displayed on the home page. Our home page features a filter bar with the 'useEffect' react hook to conditionally render the menus of chefs with the selected cooking style. ",
             },
             {
-                src: msgsend,
+                src: eatsyMsgsend,
                 title: "Sending Messages",
-                about: "Did my test work?",
+                about: "From the home page, you can navigate into a users profile to find more details about their menu and connect with them via the send message modal.",
             },
             {
-                src: msgview,
+                src: eatsyMsgview,
                 title: "Viewing Messages",
-                about: "Did my test work?",
+                about: "The user recieving your messages can view them in the message center within their profile. They may decide to reply to any messages to continue the connection.",
             },
             {
-                src: profile01,
+                src: eatsyProfile01,
                 title: "Editing Your Profile",
-                about: "Did my test work?",
+                about: "This is the view of a logged-in users profile. From the top down, we can see that users have the option to upload custom profile pictures, view their messages, view their menu, or update any desired user information. I implemented JWT user auth to conditionally render the logged in users profile.",
             },
             {
-                src: profile02,
+                src: eatsyProfile02,
                 title: "Editing Your Profile Cont.",
-                about: "Did my test work?",
+                about: "In your profiles menu view you may update any existing menu items, or add dishes to your existing menu. A future direction I would like to take with the app is to embrace its social media qualities, and add the option for users to have many menus at a time, and have each menu item be linked via hashtags, for an easier user experience when trying to compare dishes.",
             },
         ]
     },
     {
         src: wow,
         title: "World of Wordcraft",
-        about: "Text based adventure game",
+        role: "Github Admin",
+        about: "WOW is a text-based adventure game with spell creation as its main feature.",
+        highlight:"I was responsible for this projects backend, and initializing game start by fetching the correct data from the backend and cleaning it for use in handlebars.js/gameplay.",
         utils: "MySQL | Express.js | Node.js | Handlebars.js",
         demo: [
             {
-                src: test,
-                title: "testing page 1",
-                about: "this is a test",
+                src: wowLogin,
+                title: "Login",
+                about: "This project uses sequelize sessions to pull the correct user data after login. User password are encrypted with the bcrypt npm package (which I continued to use in future projects).",
             },
             {
-                src: test,
-                title: "testing page 2",
-                about: "Did my test work?",
+                src: wowHomepage,
+                title: "Home Page",
+                about: "Our home page is a space where you can relax between adventures. Here you can see your characters stats, achievement log, and you're presented with the option to start a new adventure.",
             },
             {
-                src: test,
-                title: "testing page 2",
-                about: "Did my test work?",
+                src: wowGamestart,
+                title: "Game Start",
+                about: "When you start a new adventure you're brought to our game handlebars.js front end. When you select continue, a random encounter from our database will begin.",
+            },
+            {
+                src: wowGameplay,
+                title: "Gameplay",
+                about: "During encounters you can use spells to attack, items to heal or enhance yourself, and you can access the forge to create new spells.",
             },
         ]
     },
     {
         src: gitgood,
         title: "Git Good",
-        about: "Strategy card game",
+        role: "Project Manager",
+        about: "Git Good is a lane based strategy card game that uses data from a superhero and pokemon API. Gameplay took inspiration from Marvel SNAP and Artifact, two successful lane based strategy card games.",
+        highlight:"I was responsible for API fetch and data cleaning. I'm particularly proud of my idea to use min-max normalization to normalize stat values between the two data sets used.",
         utils: "JS | API fetch & data cleaning | HTML | CSS",
         demo: [
             {
-                src: test,
-                title: "testing page 1",
-                about: "this is a test",
+                src: ggHomepage,
+                title: "Home Page",
+                about: "Our home page uses localStorage to track whether this is your first time visiting the site. For users who have never visited the site (or if you clear your localStorage and revisit), you will be prompted with this welcome message from our team.",
             },
             {
-                src: test,
-                title: "testing page 2",
-                about: "Did my test work?",
+                src: ggGamestart,
+                title: "Game Start",
+                about: "Starting a new game, you will be prompted with a hand of five cards. You may reject the hand to get a new starting five, but once you're ready to play, select `Begin`.",
             },
             {
-                src: test,
-                title: "testing page 2",
-                about: "Did my test work?",
+                src: ggGameplay01,
+                title: "Gameplay",
+                about: "Each round begins with players playing as many cards as they can, until their mana is depleted. Here we are highlighting the interactions and hover effects used during the play phase.",
             },
             {
-                src: test,
-                title: "testing page 2",
-                about: "Did my test work?",
+                src: ggGameplay02,
+                title: "Gameplay Cont.",
+                about: "Here you can see a snapshot of the game a few rounds in. Card and player hitpoints deplete as they are targeted, and card health notably changes to indicate whether or not it has been damaged.",
             },
         ]
     },

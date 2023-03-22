@@ -14,7 +14,9 @@ export const Portfolio = () => {
           index={index}
           src = {project.src}
           title = {project.title}
+          role = {project.role}
           about = {project.about}
+          highlight = {project.highlight}
           utils = {project.utils}
           demoData={project.demo}
           />
