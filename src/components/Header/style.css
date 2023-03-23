@@ -50,7 +50,7 @@ h3 {
     right: 1rem;
     margin: 1rem;
     background-color: var(--lighttan);
-    border: solid var(--darkterracotta);
+    border: solid var(--darkterracotta) 1px;
     border-radius: 4px;
     color: var(--darkterracotta) !important;
     text-align: center;
@@ -67,7 +67,7 @@ h3 {
     right: 0;
     transform: translateX(100%);
     top: 0;
-    border-left: solid var(--forestgreen);
+    border-left: solid var(--forestgreen) 1px;
     background-color: var(--vlightpistachio);
     transition: 0.5s ease-in-out;
 }
