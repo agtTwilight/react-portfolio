@@ -130,3 +130,41 @@ a:active * {
         width: 75% !important;
     }
 }
+
+@media (max-width: 1020px) {
+    .projectCard {
+        flex-direction: column !important;
+        min-width: 90% !important;
+        border: none !important;
+    }
+
+    .projectBrief {
+        width: 90% !important;
+        min-width: 90% !important;
+        border: solid var(--forestgreen);
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .projectHighlight {
+        padding-bottom: 1rem;
+    }
+
+    .projectDemo {
+        width: 90% !important;
+        min-width: 90% !important;
+        border: solid var(--forestgreen);
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top: none;
+    }
+
+    .demoImg {
+        width: 95% !important;
+    }
+
+    .demoArrow {
+        transform: scale(1.25);
+    }
+
+}

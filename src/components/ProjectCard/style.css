@@ -1,39 +1,42 @@
 .projectWrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .projectCard {
-        display: flex;
-        height: 600px;
-        width: 1200px;
-        position: relative;
-        border: solid var(--forestgreen);
-        border-radius: 16px;
-        overflow: hidden;
+    display: flex;
+    max-height: 50%;
+    max-width: 80%;
+    min-width: 990px;
+    min-height: 550px;
+    position: relative;
+    border: solid var(--forestgreen);
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .projectCard * {
-        margin: 0;
+    margin: 0;
 }
 
 .projectBrief {
-        position: relative;
-        width: 400px;
-        background-color: var(--pistachio);
-        border-right: solid var(--forestgreen);
+    position: relative;
+    width: 33%;
+    min-width: 400px;
+    background-color: var(--pistachio);
+    border-right: solid var(--forestgreen);
 }
 
 .projectHeader {
-        margin: 2rem auto;
-        display: flex;
-        width: fit-content;
-        justify-content: space-evenly;
-        align-items: center;
-        color: var(--extradrkterracotta);
+    margin: 2rem auto;
+    display: flex;
+    width: fit-content;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--extradrkterracotta);
 }
 
 .projectNameRole {
@@ -41,11 +44,11 @@
 }
 
 .projectImg {
-        margin-right: 3rem;
-        width: 150px;
-        height: 150px;
-        border: solid var(--forestgreen);
-        border-radius: 50%;
+    margin-right: 3rem;
+    width: 150px;
+    height: 150px;
+    border: solid var(--forestgreen);
+    border-radius: 50%;
 }
 
 .projectRole {
@@ -53,50 +56,51 @@
 }
 
 .projectAbout {
-        margin: 2rem auto;
-        width: 80%;
-        color: var(--forestgreen);
-        text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+    color: var(--forestgreen);
+    text-align: center;
 }
 
 .projectHighlight {
-        margin: 2rem auto;
-        width: 80%;
-        color: var(--forestgreen);
-        text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+    color: var(--forestgreen);
+    text-align: center;
 }
 
 .projectFooter {
-        display: flex;
-        width: 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        position: absolute;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        bottom: 0;
+    display: flex;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
 }
 
 .projectBrief hr {
-        width: 50%;
-        height: 1px;
-        background-color: var(--forestgreen);
-        border: none;
+    width: 50%;
+    height: 1px;
+    background-color: var(--forestgreen);
+    border: none;
 }
 
 .projectUtils {
-        text-align: center;
-        color: var(--forestgreen);
+    text-align: center;
+    color: var(--forestgreen);
 }
 
 .projectDemo {
-        display: flex;
-        position: relative;
-        width: 800px;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--vlightpistachio);
+    display: flex;
+    position: relative;
+    width: 67%;
+    min-width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--vlightpistachio);
 }
 
 .demoBtn {

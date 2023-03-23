@@ -1,5 +1,6 @@
 .demoContainer {
         width: 80%;
+        padding: 3rem 0;
 }
 
 .demoContainer * {
