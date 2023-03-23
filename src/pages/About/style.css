@@ -1,11 +1,21 @@
-h1 {
-        font-size: 4rem;
+.about {
+    margin-top: 5rem;
+}
+
+.about h1 {
+    font-size: 4rem;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: var(--lightforestgreen);
 }
 
 .aboutP {
-        width: 50%;
-        line-height: 1.5rem;
-        color: var(--lightpistachio);
+    max-width: 650px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: var(--lightforestgreen);
 }
 
 #portfolio-anchor {

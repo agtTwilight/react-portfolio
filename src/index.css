@@ -27,6 +27,7 @@ code {
   --vlightpistachio: #d7edcc;
   --lightpistachio: 	#a6c298;
   --pistachio: 	#aec7a7;
+  --lightforestgreen: #6b8454;
   --forestgreen: #587141;
 }
 
@@ -39,9 +40,14 @@ h2 {
     color: var(--forestgreen);
 }
 
+.smallFeature {
+    display: none;
+}
+
 .wrap {
   margin: 0 4em;
-  padding-bottom: 45px;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
 }
 
 .wrap * {
@@ -78,6 +84,45 @@ a:active *{
 				-3px 3px 3px var(--vlightpistachio);
 }
 
+.darkterracotta {
+    color: var(--darkterracotta) !important;
+}
+
 .pistachio {
-  color: var(--lightpistachio);
+    color: var(--pistachio) !important;
+}
+
+.forestgreen {
+    color: var(--forestgreen) !important;
+}
+
+@media (max-width: 576px) {
+    .wrap {
+        margin: 0 3em !important;
+        padding: 5rem 0 !important;
+      }
+
+      h1 {
+        font-size: 2rem !important;
+    }
+    
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    p {
+        font-size: .9rem !important;
+    }
+
+    .smallFeature {
+        display: block;
+    }
+
+    .largeFeature {
+        display: none;
+    }
+
+    #footer-icons {
+        visibility: hidden;
+    }
 }
