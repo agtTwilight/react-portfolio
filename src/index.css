@@ -146,6 +146,10 @@ a:active * {
         border-top-right-radius: 16px;
     }
 
+    .projectHeader {
+        margin: 1rem !important;
+    }
+
     .projectHighlight {
         padding-bottom: 1rem;
     }
@@ -161,10 +165,11 @@ a:active * {
 
     .demoImg {
         width: 95% !important;
+
     }
 
     .demoArrow {
-        transform: scale(1.25);
+        transform: scale(1.8);
     }
 
 }
