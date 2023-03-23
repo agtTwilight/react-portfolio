@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react'
 import "./style.css"
-import github from "./assests/github-hover.png"
-import linkedin from "./assests/linkedin-hover.png"
+import github from "./assests/github.png"
+import linkedin from "./assests/linkedin.png"
 
 export const Footer = () => {
         function fillFooter(num){

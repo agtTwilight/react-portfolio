@@ -172,4 +172,8 @@ a:active * {
         transform: scale(1.8);
     }
 
+    .demoArrow {
+        transform: scale(1.8);
+    }
+
 }
