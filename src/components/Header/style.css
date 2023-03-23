@@ -45,7 +45,7 @@ h3 {
 
 #navBtn {
     position: absolute;
-    min-height: 2rem;
+    min-height: 1.5rem;
     top: 0;
     right: 1rem;
     margin: 1rem;
@@ -85,6 +85,7 @@ h3 {
     background: none;
     color: var(--darkterracotta);
     font-weight: bolder;
+    font-size: 1.2rem;
 }
 
 #smallSocials {
@@ -92,7 +93,7 @@ h3 {
     justify-content: center;
     width: fit-content;
     position: absolute;
-    bottom: 0;
+    bottom: 7rem;
     left: 50%;
     transform: translateX(-50%);
 }
