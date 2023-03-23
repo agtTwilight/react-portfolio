@@ -6,7 +6,7 @@
     width: 50%;
 }
 
-#contactSub {
+#contactContainer p{
     margin: 0;
     margin-left: 1rem;
     color: var(--forestgreen);
