@@ -45,6 +45,7 @@ h3 {
 
 #navBtn {
     position: absolute;
+    min-height: 1rem;
     top: 0;
     right: 1rem;
     margin: 1rem;
@@ -66,7 +67,7 @@ h3 {
     right: 0;
     transform: translateX(100%);
     top: 0;
-    border: solid forestgreen;
+    border-left: solid var(--forestgreen);
     background-color: var(--vlightpistachio);
     transition: 0.5s ease-in-out;
 }
