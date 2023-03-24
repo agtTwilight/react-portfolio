@@ -108,3 +108,18 @@
     border: solid 1px var(--forestgreen);
     background-color: var(--vlightpistachio);
 }
+
+.demoFooterLinks {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    max-width: 5rem;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0.5rem;
+}
+
+.demoFooterLinks img {
+    height: 1.5rem;
+    width: 1.5rem;
+}

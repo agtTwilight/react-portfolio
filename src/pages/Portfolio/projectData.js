@@ -20,7 +20,7 @@ import ggHomepage from "./assets/gitgooddemo/homepage.png"
 import ggGamestart from "./assets/gitgooddemo/gamestart.png"
 import ggGameplay01 from "./assets/gitgooddemo/gameplay01.png"
 import ggGameplay02 from "./assets/gitgooddemo/gameplay02.png"
-
+// TODO add data for github && Deployed links
 export const projects = [
     {
         src: eatsy,
@@ -29,6 +29,8 @@ export const projects = [
         about: "Eatsy is a social media platform for home cooks, foodies, and chefs, where you can discover new recipes, connect with other home cooks, and share your culinary creations with the world.",
         highlight: "I was responsible for the backend of this project and populating the front end components with data from API fetch requests. I also had a largely contributed in the React.js logic, particularly the useState and useEffect hooks.",
         utils: "MongoDB | Express.js | React.js | Node.js",
+        github: "",
+        deployed: "",
         demo: [
             {
                 src: eatsyHomepage,
@@ -64,6 +66,8 @@ export const projects = [
         about: "WOW is a text-based adventure game with spell creation as its main feature.",
         highlight:"I was responsible for this projects backend, and initializing game start by fetching the correct data from the backend and cleaning it for use in handlebars.js/gameplay.",
         utils: "MySQL | Express.js | Node.js | Handlebars.js",
+        github: "",
+        deployed: "",
         demo: [
             {
                 src: wowLogin,
@@ -94,6 +98,8 @@ export const projects = [
         about: "Git Good is a lane based strategy card game that uses data from a superhero and pokemon API. Gameplay took inspiration from Marvel SNAP and Artifact, two successful lane based strategy card games.",
         highlight:"I was responsible for API fetch and data cleaning. I'm particularly proud of my idea to use min-max normalization to normalize stat values between the two data sets used.",
         utils: "JS | API fetch & data cleaning | HTML | CSS",
+        github: "",
+        deployed: "",
         demo: [
             {
                 src: ggHomepage,

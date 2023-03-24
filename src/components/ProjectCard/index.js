@@ -2,6 +2,8 @@ import { React, useState, useEffect } from 'react'
 import "./style.css"
 import DemoCard from '../DemoCard'
 import DemoFooter from '../DemoFooter'
+import github from './assets/github.png'
+import deployed from './assets/deployed.png'
 
 export const Project = (props) => {
     return (
@@ -39,6 +41,10 @@ export const Project = (props) => {
                             num={props.demoData.length}
                             index={props.index}
                         />
+                        <div className='demoFooterLinks'>
+                            <a href={props.github}><img src={github} alt=''></img></a>
+                            <a href={props.deployed}><img src={deployed} alt=''></img></a>
+                        </div>
                     </section>
                 </section>
             </section>
