@@ -39,6 +39,10 @@
     color: var(--extradrkterracotta);
 }
 
+.projectName:hover {
+    color: var(--vlightpistachio);
+}
+
 .projectNameRole {
     text-align: center;
 }
@@ -111,15 +115,25 @@
 
 .demoFooterLinks {
     display: flex;
-    justify-content: space-evenly;
     position: absolute;
-    max-width: 5rem;
+    justify-content: space-evenly;
+    max-width: 6rem;
     bottom: 0;
     right: 0;
     margin-bottom: 0.5rem;
 }
 
+.demoFooterLinks a {
+    width: fit-content;
+    padding: 0 1rem;
+    margin: 0;
+}
+
 .demoFooterLinks img {
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.demoFooterLinks img:hover {
+    transform: scale(1.2);
 }

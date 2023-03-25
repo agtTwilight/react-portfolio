@@ -13,7 +13,7 @@ export const Project = (props) => {
                     <div className='projectHeader'>
                         <img className='projectImg' src={props.src}></img>
                         <div className='projectNameRole'>
-                            <h2 className='projectName'>{props.title}</h2>
+                            <a href={`/portfolio/${props.title}`}><h2 className='projectName'>{props.title}</h2></a>
                             <h3 className='projectRole'>{props.role}</h3>
                         </div>
                     </div>

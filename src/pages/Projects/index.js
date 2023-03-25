@@ -1,9 +1,14 @@
 import React from 'react'
+import {useParams} from 'react-router-dom'
+import './style.css'
 
-export const Project = () => {
+export const PortfolioProject = () => {
+    const routeParams = useParams();
   return (
-    <div>Project</div>
+    <div className='wrap singleProjectWrap'>
+        <h1>{routeParams.project}</h1>
+    </div>
   )
 }
 
-export default Project
+export default PortfolioProject
