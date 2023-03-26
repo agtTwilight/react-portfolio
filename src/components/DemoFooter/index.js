@@ -67,10 +67,10 @@ export const DemoFooter = (props) => {
         const currentDisplay = document.querySelector(`#project${props.index}-${currentIndex}`)
         const displayTo = document.querySelector(`#project${props.index}-${indexTo}`)
 
-        currentDisplay.classList.remove("display");
-        currentDisplay.classList.add("displayNone");
-        displayTo.classList.remove("displayNone");
-        displayTo.classList.add("display");
+        // currentDisplay.classList.remove("display");
+        // currentDisplay.classList.add("displayNone");
+        // displayTo.classList.remove("displayNone");
+        // displayTo.classList.add("display");
     }
 
     return (
