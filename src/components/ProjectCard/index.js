@@ -42,8 +42,8 @@ export const Project = (props) => {
                             index={props.index}
                         />
                         <div className='demoFooterLinks'>
-                            <a href={props.github}><img src={github} alt=''></img></a>
-                            <a href={props.deployed}><img src={deployed} alt=''></img></a>
+                            <a href={props.github} target='_blank' rel="noreferrer"><img src={github} alt=''></img></a>
+                            <a href={props.deployed} target='_blank' rel="noreferrer"><img src={deployed} alt=''></img></a>
                         </div>
                     </section>
                 </section>

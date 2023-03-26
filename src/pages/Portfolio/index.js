@@ -17,6 +17,8 @@ export const Portfolio = () => {
           about = {project.about}
           highlight = {project.highlight}
           utils = {project.utils}
+          github = {project.github}
+          deployed = {project.deployed}
           demoData={project.demo}
           />
         ))}
