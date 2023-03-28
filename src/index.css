@@ -177,3 +177,13 @@ a:active * {
     }
 
 }
+
+@media (min-width: 1021px) {
+    .demoContainer * {
+        filter: opacity(70%);
+    }
+
+    .projectDemo:hover .demoContainer * {
+        filter: opacity(100%);
+    }
+}

@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Portfolio from "./pages/Portfolio";
-import PortfolioProject from "./pages/Projects";
+import PortfolioProject from "./pages/PortfolioProject";
 import {
     BrowserRouter as Router,
     Routes,
@@ -20,7 +20,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<About />} />
                     <Route path="/portfolio" element={<Portfolio />} />
-                    {/* <Route path="/portfolio/:project" element={<PortfolioProject/>} /> */}
+                    <Route path="/portfolio/:project" element={<PortfolioProject/>} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>

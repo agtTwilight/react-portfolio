@@ -7,6 +7,7 @@
         width: 99%;
         overflow: hidden;
         color: var(--forestgreen);
+        transition: 0.3s ease-in;
 }
 
 .demoImg {

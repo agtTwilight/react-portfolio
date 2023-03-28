@@ -27,7 +27,7 @@ export const projects = [
         title: "Eatsy",
         role: "Project Manager",
         about: "Eatsy is a social media platform for home cooks, foodies, and chefs, where you can discover new recipes, connect with other home cooks, and share your culinary creations with the world.",
-        highlight: "I was responsible for the backend of this project and populating the front end components with data from API fetch requests. I also had a largely contributed in the React.js logic, particularly the useState and useEffect hooks.",
+        highlight: "I was responsible for the backend of this project, as well as populating the front end components with data from API fetch requests, and implemented the React.js logic using the useState and useEffect hooks.",
         utils: "MongoDB | Express.js | React.js | Node.js",
         github: "https://github.com/agtTwilight/eatsy-front-end",
         deployed: "https://eatsyfoods.netlify.app/",
